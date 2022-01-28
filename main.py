@@ -29,7 +29,7 @@ def number_borrowers(loanid):
         if type(d) is list:
             print(d)
             for r in d:
-                print(r)
+                #print(r)
                 if type(r) is dict:
                     if "isBorrower" in r:
                         if r["isBorrower"] == True:
